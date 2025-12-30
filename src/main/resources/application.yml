@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+app:
+  dataDir: ./data
+  adminToken: "e9c19fa8-f477-4914-a3a1-5327e2b4d921"
+
+retention:
+  keepLastNVersions: 3
+#  tiers:
+#    - window: "P30D"
+#      bucket: "P1D"
